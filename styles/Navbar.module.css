@@ -1,0 +1,32 @@
+.h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    color: bisque;
+    padding: 10px;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    width:100%;
+    height:80px;
+  
+}
+  
+  @media (max-width: 768px) {
+    .navbar {
+      justify-content: flex-end; 
+    }
+  
+    .link_group {
+      display: none; 
+    }
+  
+    .true {
+      display: block !important;
+    }
+  }
+
+  
