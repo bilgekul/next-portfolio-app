@@ -14,7 +14,7 @@ const Navbar = () => {
       <h1 className={styles.h1}>Bilgekul Kadirhan Karahan</h1>
       <button
         onClick={toggleMenu}
-        className={open ? styles.true : styles.false}
+        className={styles.btn}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
