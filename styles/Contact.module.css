@@ -11,8 +11,8 @@
     font-family: 'Montserrat',sans-serif;
     text-align: center;
     background-color:#1f2833;
-    position: relative;
-    display: flex;
+    position:relative;
+    display:block;
     flex-direction: column;
     height: 60vh;
     width:100%;
@@ -36,7 +36,8 @@
     padding-left:10px;
 }
 .text_area textarea{
-    width: 660px;
+    width: 100%;
+    max-width: 670px;
     height:250px;
     resize: none;
     border-left:none;
