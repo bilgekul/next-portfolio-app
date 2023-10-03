@@ -12,22 +12,47 @@
     font-size:40px;
     color: bisque;
     padding: 10px;
+    position: fixed;
 }
 .link{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:30px;
     color: bisque;
     margin:10px;
+    padding: 10px;
+}
+.link_group{
+    position: relative;
+    padding-left:1150px;
+    padding-top:20px;
 }
 .btn{
     display: none;
 }
-
-  @media (max-width: 768px) {
+  @media (max-width:768px) {
     .navbar {
-      justify-content: flex-end; 
+      display:flex;
+      justify-content: space-between;
     }
-  
+    .h1{
+        position:relative;
+        font-size:30px;
+        text-wrap: break-word;
+    }
+    .btn{
+        display:flex;
+        width:50px;
+        height:50px;
+        background-color:#45a29e;
+        border-radius:10px;
+        outline: none;
+        border: none;
+        margin:10px;
+    }
+    .btn > svg{
+        align-self:center;
+        margin-left: 18px;
+    }
     .link_group {
       display: none; 
     }
@@ -36,5 +61,19 @@
       display: block !important;
     }
   }
+  @media (max-width:1300px) {
+   
+    .link{
+        font-size: 20px;
+    }
+    .link_group{
+        position: fixed;
+        left: 0; 
+        top: 0; 
+        transform: translateX(-630px); 
+    }
+  
+}
+
 
   

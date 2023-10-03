@@ -7,15 +7,38 @@
 }
 .content{
     padding: 0;
-    margin: 0;
+    margin-bottom:50px;
     font-family: 'Montserrat',sans-serif;
     text-align: center;
     background-color:#1f2833;
-    position:relative;
-    display:block;
-    flex-direction: column;
-    height: 60vh;
+    display:inline-block;
+    position: relative;
+    height:590px;
     width:100%;
+}
+@media (max-width:768px) {
+    .content{
+        margin-bottom:110px;
+        height:730px;
+    }
+    .text_area{
+        size:200px;
+        width: 350px;
+        padding-left:60px;
+    }
+  
+}
+@media (max-width:500px) {
+    .content{
+        margin-bottom:110px;
+        height:730px;
+    }
+    .text_area{
+        size:200px;
+        width: 400px;
+        padding-left:100px;
+    }
+  
 }
 .input_area input{
     width: 280px;
@@ -27,7 +50,6 @@
     outline:none;
     border-color: aliceblue;
     margin: 50px;
-    overflow: hidden;
 }
 .input_area input::placeholder{
     color:#c5c6c7;
@@ -65,7 +87,7 @@
     font-weight: 600;
     cursor: pointer;
     align-self: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .btn:hover{
     background-color: #66fcf1;

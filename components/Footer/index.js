@@ -6,9 +6,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <React.Fragment>
-        <div>
-            <Contact/>
-        </div>
+        <div className={styles.footer}>
+           <Contact/>
         <div className= {styles.content}>
             <h3 className={styles.h3}>Bilgekul Kadirhan Karahan</h3>
             <div className={styles.btn_group}>
@@ -40,7 +39,9 @@ const Footer = () => {
                 </button>    
             </div>
             <span className={styles.tradermarks}>Bilgekul Kadirhan Karahan © 2023. All Right Reserved, By Bilgekul.</span>
+        </div> 
         </div>
+        
     </React.Fragment>
   )
 }
