@@ -16,6 +16,7 @@ export default function Document() {
       </Head>
       <body>
         <Main />
+        <NextScript src="https://code.jquery.com/jquery-3.6.0.min.js"/>
         <NextScript />
       </body>
     </Html>
